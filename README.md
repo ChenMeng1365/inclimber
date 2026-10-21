@@ -1,12 +1,12 @@
-# 网页镜像 web-mir (gem: webmirror)
+# 网页镜像 web-mir (gem: inclimber)
 
 网页快速镜像 + 微信文章转 Markdown 命令行工具, Ruby 编写.
 
 ## 安装
 
 ```
-gem build webmirror.gemspec
-gem install webmirror-0.1.0.gem
+gem build inclimber.gemspec
+gem install inclimber-0.1.0.gem
 ```
 
 依赖 nokogiri 自动安装.
@@ -32,12 +32,12 @@ web-mir --help               帮助
 ## 开发模式
 
 ```
-ruby webmirror.rb <url>    # 直接跑源码
+ruby inclimber.rb <url>    # 直接跑源码
 ```
 
 ## 文件
 
-- `webmirror.rb`  CLI 入口
+- `inclimber.rb`  CLI 入口
 - `wmirror.rb`   镜像核心 (下载/本地化)
 - `wxmd.rb`      微信提取
-- `webmirror.gemspec`  打包定义 (require_paths=["."])
+- `inclimber.gemspec`  打包定义 (require_paths=["."])

@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #coding:utf-8
-# func: webmirror 可执行入口 (gem 安装后命令为 webmirror)
-require 'webmirror'
+# func: inclimber 可执行入口 (gem 安装后命令为 web-mir)
+require 'inclimber'
 
 main

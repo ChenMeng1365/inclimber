@@ -1,10 +1,10 @@
 #coding:utf-8
 # func: 网页镜像 CLI: 参数URL或读取当前目录 todo-list.txt, 完成即清除条目, 刷新 index.html
-# CALL: ruby webmirror.rb <url> [<url>...]     直接镜像/提取
-# CALL: ruby webmirror.rb --md <url> [<url>...] 强制提取 Markdown
-# CALL: ruby webmirror.rb --list              查看待处理清单
-# CALL: ruby webmirror.rb --add <url> [<url>] 加入待处理清单
-# CALL: ruby webmirror.rb                     处理 todo-list.txt (每行一个网页)
+# CALL: ruby inclimber.rb <url> [<url>...]     直接镜像/提取
+# CALL: ruby inclimber.rb --md <url> [<url>...] 强制提取 Markdown
+# CALL: ruby inclimber.rb --list              查看待处理清单
+# CALL: ruby inclimber.rb --add <url> [<url>] 加入待处理清单
+# CALL: ruby inclimber.rb                     处理 todo-list.txt (每行一个网页)
 
 require 'fileutils'
 require_relative 'wmirror'
